@@ -1,1 +1,119 @@
+* {
+  box-sizing: border-box;
+}
 
+h1 {
+  font-family: Sans-serif;
+  font-size: 175%;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  
+}
+
+p {
+  font-family: Sans-serif;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  clear: right;
+  overflow: auto;
+}
+
+ div {
+   position: relative;
+   background-color: gray;
+   border: 1px solid black;
+   width: 100%;
+   margin: auto;
+}
+
+.chicken {
+  font-family: Sans-serif;
+  color: black;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: #F9A58C;
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  padding: 5px;
+  margin: 0px 0px 10px 10px;
+  float: right;
+} 
+
+.beef {
+  font-family: Sans-serif;
+  color: white;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: #D73939;
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  padding: 5px;
+  margin: 0px 0px 10px 10px;
+  float: right;
+}
+
+.sushi {
+  font-family: Sans-serif;
+  color: black;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: #F7ED94;
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  padding: 5px;
+  margin: 0px 0px 10px 10px;
+  float: right;
+}
+
+/****-Destop Version****/
+@media (min-width: 992px) {
+  .column-lg-4 {
+    float: left;
+    width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/****Tablet Version****/
+@media (min-width: 768px) and (max-width: 991px) {
+  .colmn-md-6 {
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  .colmn-md-12 {
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/****Mobile Version****/
+@media (max-width: 767px) {
+  .colmn-sm-12 {
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

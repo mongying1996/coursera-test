@@ -19,7 +19,7 @@ body {
 .navbar-brand a {
   font-family: 'Lora', serif;
   color: #723d46;
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   text-decoration: none;
@@ -67,7 +67,7 @@ body {
   box-shadow: 0 0 20px #cf8f97;
   border-radius: 4px;
   overflow: hidden;
-  margin: 10px;
+  margin: auto 10px 80px auto;
 }
 
 #menu-tile p {

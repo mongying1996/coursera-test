@@ -51,8 +51,6 @@ body {
   background: #dec9e9;
 }
 
-/** CONTENT **/
-
 #page-heading {
   color: #773344;
   font-size: 2.5em;
@@ -67,7 +65,7 @@ body {
   box-shadow: 0 0 20px #cf8f97;
   border-radius: 4px;
   overflow: hidden;
-  margin: auto 10px 80px auto;
+  margin: auto 10px 80px 10px;
 }
 
 #menu-tile p {
